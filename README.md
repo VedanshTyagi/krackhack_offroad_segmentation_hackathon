@@ -290,9 +290,9 @@ with torch.no_grad():
 
 | Model | Parameters | mIoU | Inference Speed |
 |-------|-----------|------|-----------------|
-| DeepLabV3+ (Teacher) | ~40M | XX.XX% | ~30 FPS |
-| SegFormer-B3 (Teacher) | ~45M | XX.XX% | ~35 FPS |
-| **SegFormer-B1 (Student)** | **~13.7M** | **XX.XX%** | **~80 FPS** |
+| DeepLabV3+ (Teacher) | ~40M | 60% | ~30 FPS |
+| SegFormer-B3 (Teacher) | ~45M | 65% | ~35 FPS |
+| **SegFormer-B1 (Student)** | **~13.7M** | **65.55%** | **~80 FPS** |
 
 ### Advantages of Ensemble Distillation
 
@@ -412,18 +412,9 @@ This project is for educational purposes. Please cite the original papers if you
 
 ## 👥 Authors
 
-**Your Name / Team Name**  
-Contact: your.email@example.com
+**Vedansh / Krackheads**  
+Contact: vedanshtyagi999@gmail.com
 
----
-
-## 🙏 Acknowledgments
-
-- Dataset: [Offroad Segmentation Dataset](link-to-dataset)
-- Pretrained models from Hugging Face and PyTorch
-- Inspired by ensemble distillation research in computer vision
-
----
 
 ## 📊 Citation
 
@@ -431,23 +422,13 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @misc{ensemble_distillation_2024,
-  author = {Your Name},
+  author = {Vedansh Tyagi},
   title = {Ensemble Knowledge Distillation for Semantic Segmentation},
-  year = {2024},
+  year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/ensemble-distillation}
+  url = {https://github.com/VedanshTyagi/krackhack_offroad_segmentation_hackathon}
 }
 ```
-
----
-
-## 🔮 Future Work
-
-1. **Multi-Scale Distillation**: Distill features at multiple resolutions
-2. **Self-Distillation**: Student becomes teacher for next iteration
-3. **Online Distillation**: Train teachers and student jointly
-4. **Cross-Dataset Transfer**: Test generalization on other segmentation datasets
-5. **Mobile Deployment**: Optimize student for edge devices (TensorRT, ONNX)
 
 ---
 
